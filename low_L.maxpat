@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 604.0, 314.0, 594.0, 495.0 ],
+		"rect" : [ 1116.0, 546.0, 1410.0, 775.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,18 +39,6 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 47.75, 158.0, 123.0, 47.0 ],
-					"text" : "Two different filters, having different cutoff slopes"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "message",
@@ -102,7 +90,7 @@
 				"box" : 				{
 					"comment" : "Selector",
 					"id" : "obj-32",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -139,11 +127,11 @@
 				"box" : 				{
 					"comment" : "InL",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 173.0, 73.0, 30.0, 30.0 ]
 				}
 
@@ -152,7 +140,7 @@
 				"box" : 				{
 					"comment" : "Freq",
 					"id" : "obj-8",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -165,7 +153,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-18",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -271,7 +259,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
