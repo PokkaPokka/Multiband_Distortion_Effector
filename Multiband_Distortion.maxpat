@@ -98,7 +98,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 283.500036358833313, 837.833333492279053, 136.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 134.317193210124969, 647.194424629211426, 111.0, 47.0 ],
+					"presentation_rect" : [ 134.515598595142365, 647.194424629211426, 111.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"slidercolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -1067,7 +1067,7 @@
 					"patching_rect" : [ 1187.931060075759888, 148.0, 160.5, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 118.790613412857056, 242.762607038021088, 409.0, 21.0 ],
-					"text" : "Transfer Function",
+					"text" : "Distortion Type",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1101,7 +1101,7 @@
 					"patching_rect" : [ 1187.931060075759888, 82.0, 159.5, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 118.790613412857056, 178.855638921260834, 409.5, 21.0 ],
-					"text" : "Cut-Off",
+					"text" : "Frequency Band Cut-Off",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1513,7 +1513,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 935.333369851112366, 521.5, 39.0, 22.0 ],
+					"patching_rect" : [ 935.333369851112366, 527.5, 39.0, 22.0 ],
 					"text" : "dbtoa"
 				}
 
@@ -1528,7 +1528,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 935.333369851112366, 456.0, 50.0, 63.0 ],
+					"patching_rect" : [ 935.333369851112366, 460.0, 50.0, 63.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 438.799573361873627, 459.78533399105072, 50.0, 63.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1563,7 +1563,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 654.666704773902893, 521.5, 39.0, 22.0 ],
+					"patching_rect" : [ 654.666704773902893, 527.5, 39.0, 22.0 ],
 					"text" : "dbtoa"
 				}
 
@@ -1613,7 +1613,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 343.166700720787048, 532.833333492279053, 39.0, 22.0 ],
+					"patching_rect" : [ 313.5, 527.5, 39.0, 22.0 ],
 					"text" : "dbtoa"
 				}
 
@@ -1628,7 +1628,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 343.166700720787048, 462.333333492279053, 50.0, 63.0 ],
+					"patching_rect" : [ 313.5, 460.0, 50.0, 63.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 162.397691905498505, 459.78533399105072, 50.0, 63.0 ],
 					"saved_attribute_attributes" : 					{
@@ -2483,13 +2483,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-171", 0 ],
-					"source" : [ "obj-168", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-171", 0 ],
 					"source" : [ "obj-168", 0 ]
 				}
 
@@ -2515,7 +2508,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-141", 1 ],
-					"midpoints" : [ 352.666700720787048, 553.014492720365524, 259.5, 553.014492720365524 ],
+					"midpoints" : [ 323.0, 553.014492720365524, 259.5, 553.014492720365524 ],
 					"order" : 0,
 					"source" : [ "obj-171", 0 ]
 				}
@@ -2524,7 +2517,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-142", 1 ],
-					"midpoints" : [ 352.666700720787048, 552.0, 217.5, 552.0 ],
+					"midpoints" : [ 323.0, 552.0, 217.5, 552.0 ],
 					"order" : 1,
 					"source" : [ "obj-171", 0 ]
 				}
@@ -2549,13 +2542,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-172", 0 ],
-					"source" : [ "obj-173", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-172", 0 ],
 					"source" : [ "obj-173", 0 ]
 				}
 
@@ -2573,13 +2559,6 @@
 					"destination" : [ "obj-153", 1 ],
 					"order" : 1,
 					"source" : [ "obj-174", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-174", 0 ],
-					"source" : [ "obj-175", 1 ]
 				}
 
 			}
@@ -3256,8 +3235,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 1208.5, 522.0, 1344.5, 522.0 ],
+					"destination" : [ "obj-19", 0 ],
+					"midpoints" : [ 1208.5, 669.0, 1083.0, 669.0, 1083.0, 717.0, 1043.500036358833313, 717.0 ],
 					"order" : 0,
 					"source" : [ "obj-74", 0 ]
 				}
@@ -3265,8 +3244,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"midpoints" : [ 1208.5, 450.0, 987.0, 450.0, 987.0, 432.0, 796.0, 432.0 ],
+					"destination" : [ "obj-26", 0 ],
+					"midpoints" : [ 1208.5, 669.0, 837.0, 669.0, 837.0, 783.0, 750.0, 783.0, 750.0, 822.0, 715.500036358833313, 822.0 ],
 					"order" : 1,
 					"source" : [ "obj-74", 0 ]
 				}
@@ -3274,8 +3253,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"midpoints" : [ 1208.5, 405.0, 1125.0, 405.0, 1125.0, 291.0, 103.5, 291.0 ],
+					"destination" : [ "obj-31", 0 ],
+					"midpoints" : [ 1208.5, 669.0, 429.0, 669.0, 429.0, 783.0, 342.0, 783.0, 342.0, 822.0, 293.000036358833313, 822.0 ],
 					"order" : 2,
 					"source" : [ "obj-74", 0 ]
 				}
@@ -3404,63 +3383,63 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "distortion.maxpat",
-				"bootpath" : "~/Downloads/Multiband_Distortion_Effecot 2",
+				"bootpath" : "~/Documents/Max 8/Projects/WU_Final Project/Multiband_Distortion_Effecot",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drives.maxpat",
-				"bootpath" : "~/Downloads/Multiband_Distortion_Effecot 2",
+				"bootpath" : "~/Documents/Max 8/Projects/WU_Final Project/Multiband_Distortion_Effecot",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "high_L.maxpat",
-				"bootpath" : "~/Downloads/Multiband_Distortion_Effecot 2",
+				"bootpath" : "~/Documents/Max 8/Projects/WU_Final Project/Multiband_Distortion_Effecot",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "high_R.maxpat",
-				"bootpath" : "~/Downloads/Multiband_Distortion_Effecot 2",
+				"bootpath" : "~/Documents/Max 8/Projects/WU_Final Project/Multiband_Distortion_Effecot",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "low_L.maxpat",
-				"bootpath" : "~/Downloads/Multiband_Distortion_Effecot 2",
+				"bootpath" : "~/Documents/Max 8/Projects/WU_Final Project/Multiband_Distortion_Effecot",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "low_R.maxpat",
-				"bootpath" : "~/Downloads/Multiband_Distortion_Effecot 2",
+				"bootpath" : "~/Documents/Max 8/Projects/WU_Final Project/Multiband_Distortion_Effecot",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mid_L.maxpat",
-				"bootpath" : "~/Downloads/Multiband_Distortion_Effecot 2",
+				"bootpath" : "~/Documents/Max 8/Projects/WU_Final Project/Multiband_Distortion_Effecot",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mid_R.maxpat",
-				"bootpath" : "~/Downloads/Multiband_Distortion_Effecot 2",
+				"bootpath" : "~/Documents/Max 8/Projects/WU_Final Project/Multiband_Distortion_Effecot",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "overdrive.maxpat",
-				"bootpath" : "~/Downloads/Multiband_Distortion_Effecot 2",
+				"bootpath" : "~/Documents/Max 8/Projects/WU_Final Project/Multiband_Distortion_Effecot",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
