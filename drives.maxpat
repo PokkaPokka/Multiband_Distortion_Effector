@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 4,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 359.0, 161.0, 51.0, 22.0 ],
+					"text" : "hardclip"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -220,7 +232,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 3 ],
+					"midpoints" : [ 368.5, 279.0, 226.5, 279.0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 3 ],
+					"midpoints" : [ 400.5, 279.0, 331.5, 279.0 ],
+					"source" : [ "obj-4", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
+					"midpoints" : [ 199.0, 279.0, 187.166666666666657, 279.0 ],
 					"source" : [ "obj-72", 0 ]
 				}
 
@@ -228,14 +257,25 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
+					"midpoints" : [ 238.0, 279.0, 292.166666666666686, 279.0 ],
 					"source" : [ "obj-72", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"midpoints" : [ 207.5, 147.0, 368.5, 147.0 ],
+					"order" : 0,
+					"source" : [ "obj-78", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
-					"order" : 1,
+					"midpoints" : [ 207.5, 147.0, 199.0, 147.0 ],
+					"order" : 2,
 					"source" : [ "obj-78", 0 ]
 				}
 
@@ -243,15 +283,26 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-97", 0 ],
-					"order" : 0,
+					"midpoints" : [ 207.5, 147.0, 283.5, 147.0 ],
+					"order" : 1,
 					"source" : [ "obj-78", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"midpoints" : [ 242.5, 147.0, 379.166666666666686, 147.0 ],
+					"order" : 0,
+					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-72", 1 ],
-					"order" : 1,
+					"midpoints" : [ 242.5, 147.0, 212.0, 147.0 ],
+					"order" : 2,
 					"source" : [ "obj-79", 0 ]
 				}
 
@@ -259,15 +310,26 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-97", 1 ],
-					"order" : 0,
+					"midpoints" : [ 242.5, 147.0, 296.166666666666686, 147.0 ],
+					"order" : 1,
 					"source" : [ "obj-79", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 2 ],
+					"midpoints" : [ 277.5, 147.0, 389.833333333333314, 147.0 ],
+					"order" : 0,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-72", 2 ],
-					"order" : 1,
+					"midpoints" : [ 277.5, 147.0, 225.0, 147.0 ],
+					"order" : 2,
 					"source" : [ "obj-80", 0 ]
 				}
 
@@ -275,15 +337,26 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-97", 2 ],
-					"order" : 0,
+					"midpoints" : [ 277.5, 147.0, 308.833333333333314, 147.0 ],
+					"order" : 1,
 					"source" : [ "obj-80", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 3 ],
+					"midpoints" : [ 312.5, 147.0, 400.5, 147.0 ],
+					"order" : 0,
+					"source" : [ "obj-81", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-72", 3 ],
-					"order" : 1,
+					"midpoints" : [ 312.5, 147.0, 238.0, 147.0 ],
+					"order" : 2,
 					"source" : [ "obj-81", 0 ]
 				}
 
@@ -291,7 +364,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-97", 3 ],
-					"order" : 0,
+					"midpoints" : [ 312.5, 147.0, 321.5, 147.0 ],
+					"order" : 1,
 					"source" : [ "obj-81", 0 ]
 				}
 
@@ -307,6 +381,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 2 ],
+					"midpoints" : [ 321.5, 279.0, 311.833333333333314, 279.0 ],
 					"source" : [ "obj-97", 1 ]
 				}
 
@@ -314,14 +389,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "distortion.maxpat",
-				"bootpath" : "~/Downloads/Multiband_Distortion_Effecot 2",
+				"bootpath" : "~/Downloads/Multiband_Distortion_Effecot",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hardclip.maxpat",
+				"bootpath" : "~/Downloads/Multiband_Distortion_Effecot",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "overdrive.maxpat",
-				"bootpath" : "~/Downloads/Multiband_Distortion_Effecot 2",
+				"bootpath" : "~/Downloads/Multiband_Distortion_Effecot",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
